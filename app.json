@@ -1,7 +1,7 @@
 {
-  "name": "KANGO-XMD",
+  "name": "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘",
   "version": "2.4.5",
-  "description": "KANGO, the best WhatsApp Bot",
+  "description": "𝙼𝙸𝙺𝙴𝚈, the best WhatsApp Bot",
   "logo": "https://i.imgur.com/1DkLGVk.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/OfficialKango/KANGO-XMD-LITE",
@@ -17,28 +17,28 @@
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "Kango-Bot",
-      "required": false
+      "value": "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘",
+      "required": true
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
-      "value": "",
+      "value": "79294136448",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "Kango",
-      "required": false
+      "value": "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘",
+      "required": true
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "Kango",
-      "required": false
+      "value": "+79294136448",
+      "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Enter heroku API key here",
