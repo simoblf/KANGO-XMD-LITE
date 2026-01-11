@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
-// @author : Hector 
-// @telegram : http://t.me/official_kango
+// @project_name : 𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘 
+// @author : 𝙼𝙸𝙺𝙴𝚈 
+// @telegram : https://chat.whatsapp.com/F7sVJjvhEANDhPJYPIKhaE
 // @github : OfficialKango
-// @whatsapp : +233509977126
+// @whatsapp : +79294136448
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ 𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘 ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./kango/color')
@@ -20,25 +20,25 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || '𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '79294136448' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['79294136448', '212644771888'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || '𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘" 
 
 //--------------[ COUNTRY TIMEZONE ]------------//
 
@@ -49,7 +49,7 @@ global.timezones = 'Africa/Accra';  // Set this to you timezone
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "+79294136448" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -62,13 +62,13 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> 𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©kango-xmd', 
+  success: '𝙼𝙸𝙺𝙴𝚈', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -85,4 +85,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ KANGO-XMD ]----------------------//
+//----------------------[ 𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘 ]----------------------//
