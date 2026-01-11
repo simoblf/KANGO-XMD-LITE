@@ -1,7 +1,7 @@
 {
-  "name": "KANGO-XMD",
+  "name": "𖣘••𝙼𝙸𝙺𝙴𝚈••𖣘",
   "version": "3.0.0",
-  "description": "The best Whatsapp bot im Ghana",
+  "description": "The best Whatsapp bot in Morocco",
   "main": "index.js",
   "engines": {
     "node": ">= 20.x",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Hector Manuel",
+  "author": "𝙼𝙸𝙺𝙴𝚈 Manuel",
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "v7.0.0-rc.9",
